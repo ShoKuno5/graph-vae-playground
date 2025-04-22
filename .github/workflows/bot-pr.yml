@@ -1,5 +1,4 @@
 name: bot-create-pr
-
 on:
   workflow_dispatch:
     inputs:
@@ -8,34 +7,32 @@ on:
         required: true
 
 permissions:
-  contents: write          # git push ができる
-  pull-requests: write     # PR 作成ができる
+  contents: write
+  pull-requests: write
 
 jobs:
   apply-patch:
     runs-on: ubuntu-latest
-    concurrency:           # 同時実行の競合を防ぐ
+    concurrency:
       group: bot-patch
       cancel-in-progress: true
 
     steps:
-      # ① リポジトリをチェックアウト
-      - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-      # ② パッチをデコードして適用
-      - name: Decode & apply patch
-        run: |
-          echo "${{ inputs.patch_b64 }}" | base64 -d > patch.diff
-          git config --global user.name  "your-bot"
-          git config --global user.email "bot@example.com"
-          git checkout -b bot/patch-${{ github.run_id }}
-          git apply patch.diff
-          git add -A
-          git commit -m "bot patch ${{ github.run_id }}"
+    - name: Decode & apply patch
+      run: |
+        echo "${{ inputs.patch_b64 }}" | base64 -d > patch.diff
+        git config --global user.name  "your-bot"
+        git config --global user.email "bot@example.com"
+        git checkout -b bot/patch-${{ github.run_id }}
+        git apply patch.diff
+        git add -A
+        git commit -m "bot patch ${{ github.run_id }}"
 
-      # ③ ブランチを push → gh CLI で PR 作成
-      #    gh はデフォルトで GITHUB_TOKEN を読み込む
-      - name: Push & open PR
-        run: |
-          git push -u origin HEAD
-          gh pr create --title "Bot patch ${{ github.run_id }}" --body "Automated patch from workflow run ${{ github.run_id }}" --label bot
+    - name: Push & open PR
+      env:
+        GH_TOKEN: ${{ github.token }}        # ← ここだけ追加
+      run: |
+        git push -u origin HEAD
+        gh pr create --title "Bot patch ${{ github.run_id }}" --body "Automated patch from workflow run ${{ github.run_id }}" --label bot
