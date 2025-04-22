@@ -5,35 +5,37 @@ on:
     inputs:
       patch_b64:
         description: Base64‑encoded git diff
-        required: true      # 入力が空だと実行できない
+        required: true
 
 permissions:
-  contents: write           # git push / commit
-  pull-requests: write      # gh pr create
+  contents: write          # git push ができる
+  pull-requests: write     # PR 作成ができる
 
 jobs:
   apply-patch:
     runs-on: ubuntu-latest
-    concurrency:            # 同時実行で競合しないように
+    concurrency:           # 同時実行の競合を防ぐ
       group: bot-patch
       cancel-in-progress: true
 
     steps:
-    - uses: actions/checkout@v4   # リポジトリを取得
+      # ① リポジトリをチェックアウト
+      - uses: actions/checkout@v4
 
-    - name: Decode & apply patch
-      run: |
-        echo "${{ inputs.patch_b64 }}" | base64 -d > patch.diff
-        git config --global user.name  "your-bot"
-        git config --global user.email "bot@example.com"
-        git checkout -b bot/patch-${{ github.run_id }}
-        git apply patch.diff
-        git add -A
-        git commit -m "bot patch ${{ github.run_id }}"
+      # ② パッチをデコードして適用
+      - name: Decode & apply patch
+        run: |
+          echo "${{ inputs.patch_b64 }}" | base64 -d > patch.diff
+          git config --global user.name  "your-bot"
+          git config --global user.email "bot@example.com"
+          git checkout -b bot/patch-${{ github.run_id }}
+          git apply patch.diff
+          git add -A
+          git commit -m "bot patch ${{ github.run_id }}"
 
-    - name: Push & open PR
-      env:
-        GH_TOKEN: ${{ secrets.BOT_PAT }}   # Bot の PAT
-      run: |
-        git push -u origin HEAD
-        gh pr create --title "Bot patch ${{ github.run_id }}" --body "Automated patch from workflow run ${{ github.run_id }}" --label bot
+      # ③ ブランチを push → gh CLI で PR 作成
+      #    gh はデフォルトで GITHUB_TOKEN を読み込む
+      - name: Push & open PR
+        run: |
+          git push -u origin HEAD
+          gh pr create --title "Bot patch ${{ github.run_id }}" --body "Automated patch from workflow run ${{ github.run_id }}" --label bot
