@@ -45,3 +45,20 @@ def degree_mmd(graphs_ref, graphs_gen, max_deg=10):
     Y = avg_hist(graphs_gen)
     return float(np.abs(X - Y).sum())
 
+# ====================  Iso-aware Uniqueness  (WL-hash版)  ====================
+import hashlib, networkx as nx
+
+def _wl_canonical_hash(G: nx.Graph) -> str:
+    """
+    ノード属性を一切使わず、Weisfeiler–Lehman グラフハッシュを計算。
+    networkx 2.x / 3.x どちらでも動く。結果を MD5 で短縮。
+    """
+    H  = nx.convert_node_labels_to_integers(G)              # ラベルを整数化
+    wl = nx.weisfeiler_lehman_graph_hash(H, iterations=3)   # node_attr=None
+    return hashlib.md5(wl.encode()).hexdigest()
+
+def uniqueness_iso(graphs) -> float:
+    """同型グラフを 1 と数える Uniqueness 指標"""
+    hashes = {_wl_canonical_hash(g) for g in graphs}
+    return len(hashes) / len(graphs)
+# =============================================================================
