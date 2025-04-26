@@ -106,3 +106,12 @@ GPU Sinkhorn (PyTorchOT / POT) を利用し計算コストを抑制。
 
 > **ライセンス / 再利用**  
 > この README は研究発表目的で公開される予定の HOT‑VAE プロジェクトに付随する文書です。引用・再利用時は各論文・コードのライセンス条件をご確認ください。
+
+
+
+# 学習
+python train_graphvae.py --epochs 50 --anneal
+# 評価
+python eval.py --model graphvae --ckpt runs/graphvae_epoch50.pt --sample 300
+# 期待結果：
+# Validity ≈0.83, Uniqueness ≈1.0, Degree-MMD ≈0.99
