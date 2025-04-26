@@ -1,52 +1,84 @@
 # eval.py
-import argparse, torch
+# -------------------------------------------------
+import argparse, torch, networkx as nx, matplotlib.pyplot as plt
 from torch_geometric.datasets import QM9
 from torch_geometric.loader import DataLoader
-from torch_geometric.nn import VGAE
-from baseline_vgae import Encoder           # 既存クラスを再利用
 import metrics as M
+from baseline_vgae import Encoder                       # VGAE 用
 
+# ==== GraphVAE 用エンコーダ & MLP デコーダ =========
+from graphvae_core import GEncoder, EdgeMLP
+# ---------------------------------------------------
+
+def build_model(name: str, in_dim: int, device):
+    if name == "vgae":
+        from torch_geometric.nn import VGAE
+        return VGAE(Encoder(in_dim, 64, 32)).to(device)
+
+    elif name == "graphvae":
+        class GraphVAEWrap(torch.nn.Module):
+            """Encoder + EdgeMLP decoder (学習時と同構造)"""
+            def __init__(self, in_dim, hid=64, z_dim=32):
+                super().__init__()
+                self.enc = GEncoder(in_dim, hid, z_dim)
+                self.dec = EdgeMLP(z_dim)
+            def encode(self, x, edge_index):
+                mu, _ = self.enc(x, edge_index)
+                return mu
+        return GraphVAEWrap(in_dim).to(device)
+
+    else:
+        raise ValueError(f"unknown model: {name}")
+
+# ---------- グラフ生成 ----------------------------------------
 @torch.no_grad()
-def sample_graphs(model, data_loader, device, num_graphs=100):
-    model.eval()
-    gen_graphs = []
-    ref_graphs = []
-    for i, data in enumerate(data_loader):
-        if len(gen_graphs) >= num_graphs: break
+def sample_graphs(model, loader, k: int, device):
+    ref, gen = [], []
+    for data in loader:
+        if len(gen) >= k:
+            break
         data = data.to(device)
 
-        # --- encode  & sample ---
         z = model.encode(data.x, data.edge_index)
-        # decode: inner-product decoder（sigmoid>0.5）
-        adj_logits = (z @ z.t()).sigmoid()
-        edge_index = (adj_logits > 0.5).nonzero(as_tuple=False).t()
 
-        g_gen = M.to_nx(edge_index, data.num_nodes)   # generated
-        g_ref = M.to_nx(data.edge_index, data.num_nodes)  # ground truth
+        # --- デコーダをモデルに合わせて選択 ---
+        if hasattr(model, "dec"):               # GraphVAE
+            adj_p = model.dec(z)
+        else:                                   # VGAE
+            adj_p = torch.sigmoid(z @ z.t())
 
-        gen_graphs.append(g_gen)
-        ref_graphs.append(g_ref)
+        # Bernoulli 抽出でエッジサンプリング
+        edge_idx = (torch.rand_like(adj_p) < adj_p).nonzero(as_tuple=False).t()
 
-    return ref_graphs, gen_graphs
+        gen.append(M.to_nx(edge_idx, data.num_nodes))
+        ref.append(M.to_nx(data.edge_index, data.num_nodes))
+    return ref, gen
+# --------------------------------------------------------------
 
 def main(args):
-    device = torch.device("cpu")   # Mac CPU 前提
-    ds = QM9(root="data/QM9")[:args.sample]   # 小さく切る
-    loader = DataLoader(ds, batch_size=1, shuffle=False)
+    device  = torch.device("cpu")
+    dataset = QM9(root="data/QM9")[: args.sample * 2]
+    loader  = DataLoader(dataset, batch_size=1, shuffle=False)
 
-    model = VGAE(Encoder(ds.num_features, 64, 32))
-    model.load_state_dict(torch.load(args.ckpt, map_location=device))
-    model = model.to(device)
+    model = build_model(args.model, dataset.num_features, device)
+    model.load_state_dict(torch.load(args.ckpt, map_location=device))  # strict=True OK
+    model.eval()
 
-    ref, gen = sample_graphs(model, loader, device, num_graphs=args.sample)
+    refs, gens = sample_graphs(model, loader, args.sample, device)
 
-    print(f"Validity   : {M.validity(gen):.3f}")
-    print(f"Uniqueness : {M.uniqueness(gen):.3f}")
-    print(f"Degree-MMD : {M.degree_mmd(ref, gen):.3f}")
+    print(f"Validity   : {M.validity(gens):.3f}")
+    print(f"Uniqueness : {M.uniqueness(gens):.3f}")
+    print(f"Degree-MMD : {M.degree_mmd(refs, gens):.3f}")
 
+    if args.vis:
+        nx.draw(gens[0], with_labels=True)
+        plt.show()
+
+# ------------------- CLI -------------------------------------
 if __name__ == "__main__":
     p = argparse.ArgumentParser()
-    p.add_argument("--ckpt", required=True, help="path to model.pt")
-    p.add_argument("--sample", type=int, default=100)
-    args = p.parse_args()
-    main(args)
+    p.add_argument("--model", choices=["vgae", "graphvae"], default="vgae")
+    p.add_argument("--ckpt", required=True, help="checkpoint .pt path")
+    p.add_argument("--sample", type=int, default=300, help="#graphs to eval")
+    p.add_argument("--vis", action="store_true", help="show one generated graph")
+    main(p.parse_args())
