@@ -1,0 +1,10 @@
+name: gvae
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - tensorboard
+      - networkx
