@@ -48,3 +48,8 @@ if __name__ == "__main__":
 
     model = VGAE(Encoder(ds.num_features, 64, 32)).to(device)
     train(model, loader, device)
+    
+    import os
+    os.makedirs("runs", exist_ok=True)
+    torch.save(model.state_dict(), "runs/vgae_epoch10.pt")
+    print("✔ Saved to runs/vgae_epoch10.pt")
