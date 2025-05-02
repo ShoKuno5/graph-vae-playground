@@ -36,7 +36,7 @@ KL_WARM=60
 MINDEG_W=0.25            # ★孤立ノード罰則を強め
 # ----------------------------------------
 
-ds=QM9(root="data/QM9")[:1000]
+ds = QM9(root="/dataset/QM9")[:1000]   # root は processed の 1 つ上の QM9
 loader=DataLoader(ds,batch_size=1,shuffle=True)
 model=GraphVAE(ds.num_features).cpu()
 opt=torch.optim.Adam(model.parameters(),lr=1e-3)

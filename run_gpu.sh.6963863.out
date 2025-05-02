@@ -1,8 +1,8 @@
+INFO:    Converting SIF file to temporary sandbox...
+WARNING: underlay of /etc/localtime required more than 50 (75) bind mounts
+WARNING: underlay of /usr/bin/nvidia-smi required more than 50 (309) bind mounts
 Downloading https://data.pyg.org/datasets/qm9_v3.zip
-Extracting data/QM9/raw/qm9_v3.zip
-Processing...
-Using a pre-processed version of the dataset. Please install 'rdkit' to alternatively process the raw data.
-Done!
+Extracting /dataset/QM9/raw/qm9_v3.zip
 Ep00 | Loss 1.516 Re 1.290 KL 1.024 (neg_w=40.0, l1=1e-03)
 Ep01 | Loss 1.264 Re 1.019 KL 0.752 (neg_w=39.5, l1=1e-03)
 Ep02 | Loss 1.274 Re 1.027 KL 0.457 (neg_w=39.0, l1=1e-03)
@@ -84,3 +84,4 @@ Ep77 | Loss 0.547 Re 0.482 KL 0.050 (neg_w=2.5, l1=4e-05)
 Ep78 | Loss 0.507 Re 0.447 KL 0.050 (neg_w=2.0, l1=3e-05)
 Ep79 | Loss 0.459 Re 0.404 KL 0.049 (neg_w=1.5, l1=1e-05)
 ✔ saved runs/graphvae_stable.pt
+INFO:    Cleaning up image...
