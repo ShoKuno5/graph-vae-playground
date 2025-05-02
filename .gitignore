@@ -5,3 +5,5 @@ data/QM9/
 runs/*.pt
 *.sif
 .pt
+# Singularity images
+images/*.sif
