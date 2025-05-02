@@ -1,0 +1,22 @@
+Epoch 00  Loss 7.1087
+Epoch 01  Loss 2.0565
+Epoch 02  Loss 1.5531
+Epoch 03  Loss 1.4385
+Epoch 04  Loss 1.4033
+Epoch 05  Loss 1.3768
+Epoch 06  Loss 1.3589
+Epoch 07  Loss 1.3490
+Epoch 08  Loss 1.3437
+Epoch 09  Loss 1.3356
+
+
+(gvae) project-root-py3.12manqueenmannequin@ManQueennoMacBook-Pro hot-vae % python eval.py --model vgae --ckpt runs/vgae_epoch10.pt --sample 100
+
+Validity   : 0.810
+Uniqueness : 0.780
+Degree-MMD : 1.332
+(gvae) project-root-py3.12manqueenmannequin@ManQueennoMacBook-Pro hot-vae % python eval.py --model graphvae --ckpt runs/graphvae_epoch10.pt --sample 100
+
+Validity   : 1.000
+Uniqueness : 0.140
+Degree-MMD : 1.766
