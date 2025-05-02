@@ -1,0 +1,2 @@
+/work/01/jh210022o/q25030/graph-vae-playground/.d0006962379: line 8: /work/01/jh210022o/q25030/gvae_env.sh: No such file or directory
+python: can't open file 'train_graphvae_stable.py': [Errno 2] No such file or directory

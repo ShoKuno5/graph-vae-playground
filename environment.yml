@@ -1,10 +1,17 @@
 name: gvae
-channels: [conda-forge]
+channels:
+  - conda-forge          # 基本パッケージ
 dependencies:
   - python=3.11
+  - pip                  # conda の pip を使う
   - numpy
   - pandas
-  - pip
   - pip:
+      # ── GPU 版 PyTorch 2.2 (CUDA 12.1) ──
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - torch==2.2.2+cu121
+      - torchvision==0.17.2+cu121
+      - torchaudio==2.2.2+cu121
+      # ── その他 ──
       - tensorboard
       - networkx

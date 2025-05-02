@@ -115,3 +115,140 @@ python train_graphvae.py --epochs 50 --anneal
 python eval.py --model graphvae --ckpt runs/graphvae_epoch50.pt --sample 300
 # 期待結果：
 # Validity ≈0.83, Uniqueness ≈1.0, Degree-MMD ≈0.99
+
+
+---
+---
+---
+---
+
+
+
+# Wisteria/BDEC-01 — GPU 仮想環境セットアップ手順
+
+> **目的**:
+> CUDA 12 + PyTorch 2.3 + PyTorch Geometric を **A100 GPU ノード**で使う。
+> 書き込み可能領域 `/work/01/jh210022o/q25030` を前提にしています。
+> （別のパスを使う場合は読み替えてください）
+
+---
+
+## 1. 一度だけ行う初期設定
+
+### 1-1. micromamba を配置
+
+```bash
+# GPU ノードでも login ノードでも OK
+mkdir -p /work/01/jh210022o/q25030/bin
+curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest \
+  | tar -xvj -C /work/01/jh210022o/q25030       # bin/micromamba ができる
+```
+
+### 1-2. mamba のルート（env & pkgs）を /work に固定
+
+```bash
+mkdir -p /work/01/jh210022o/q25030/mamba
+export MAMBA_ROOT_PREFIX=/work/01/jh210022o/q25030/mamba
+export MAMBA_PKGS_DIRS=$MAMBA_ROOT_PREFIX/pkgs
+```
+
+### 1-3. gvae-cuda 環境を作成
+
+```bash
+export PATH="/work/01/jh210022o/q25030/bin:$PATH"
+eval "$(micromamba shell hook --shell bash)"
+
+micromamba create -y -n gvae-cuda \
+   python=3.11 pytorch=2.3.* pytorch-cuda=12.1 \
+   -c pytorch -c nvidia -c conda-forge
+
+# PyTorch Geometric 依存拡張 (cu121 ビルド)
+micromamba activate gvae-cuda
+pip install torch_geometric torch_scatter \
+     -f https://data.pyg.org/whl/torch-2.3.0+cu121.html
+micromamba deactivate
+```
+
+### 1-4. 環境呼び出しスクリプトを作る
+
+`/work/01/jh210022o/q25030/gvae_env.sh`
+
+```bash
+#!/bin/bash
+export PATH="/work/01/jh210022o/q25030/bin:$PATH"
+export MAMBA_ROOT_PREFIX=/work/01/jh210022o/q25030/mamba
+export MAMBA_PKGS_DIRS=$MAMBA_ROOT_PREFIX/pkgs
+module load cuda/12.0          # A100 ノード用
+eval "$(micromamba shell hook --shell bash)"
+micromamba activate gvae-cuda
+```
+
+```bash
+chmod +x /work/01/jh210022o/q25030/gvae_env.sh
+```
+
+---
+
+## 2. GPU ノードに入るたびにやること
+
+### 2-1. インタラクティブ GPU セッションを取る
+
+```bash
+pjsub --interact -L rscgrp=share-interactive -g jh210022a
+```
+
+### 2-2. 環境を一発ロード
+
+```bash
+source /work/jh210022o/q25030/graph-vae-playground/gvae_env.sh
+```
+
+---
+
+## 3. 動作チェック
+
+```bash
+python - <<'PY'
+import torch, subprocess
+print("GPU available:", torch.cuda.is_available())
+if torch.cuda.is_available():
+    print("Device:", torch.cuda.get_device_name(0))
+    subprocess.run("nvidia-smi -L", shell=True)
+PY
+```
+
+期待出力例
+
+```
+GPU available: True
+Device: NVIDIA A100-SXM4-40GB
+GPU 0: NVIDIA A100-SXM4-40GB (UUID: …)
+```
+
+---
+
+## 4. バッチジョブ雛形（例）
+
+```bash
+#!/bin/bash
+#PJM -L rscgrp=gpu-a
+#PJM -L node=1
+#PJM -L elapse=02:00:00
+#PJM -g jh210022o
+#PJM -j
+
+source /work/01/jh210022o/q25030/gvae_env.sh
+
+python train_graphvae_stable.py --epochs 40
+```
+
+---
+
+### これで完了
+
+* **初期設定は 1 回だけ**
+* 2 回目以降は
+
+  1. `pjsub --interact …`（またはバッチ投入）
+  2. `source gvae_env.sh`
+     で即 GPU 実行環境に入れます。
