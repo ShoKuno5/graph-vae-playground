@@ -13,16 +13,21 @@ IMG=$ROOT/graph-vae-playground/images/hot_gvae_cuda.sif
 DATA=$ROOT/data
 CODE=$ROOT/graph-vae-playground
 mkdir -p "$DATA" "$CODE/runs"
-
 cd "$CODE"
 
-singularity exec --nv --userns \
-    --pwd /workspace \
+# ---------- 通信設定 ----------
+export MASTER_ADDR=127.0.0.1
+export MASTER_PORT=29500
+export NCCL_IB_DISABLE=1
+export NCCL_SOCKET_IFNAME=ib0,eth0
+export GLOO_SOCKET_IFNAME=ib0,eth0
+export OMP_NUM_THREADS=8
+# ------------------------------
+
+singularity exec --nv --pwd /workspace \
     -B "$DATA":/dataset \
     -B "$CODE":/workspace \
     "$IMG" \
-    python src/train_graphvae.py \
-           --epochs 50 \
-           --data_root /dataset/QM9 \
-           --device cuda \
-           --amp
+    python src/train_graphvae_ddp.py \
+           --epochs 80 \
+           --data_root /dataset/QM9

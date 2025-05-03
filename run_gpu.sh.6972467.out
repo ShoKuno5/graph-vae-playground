@@ -1,0 +1,7 @@
+Error for command "exec": requires at least 2 arg(s), only received 1
+
+Usage:
+  singularity [global options...] exec [exec options...] <container> <command>
+
+Run 'singularity --help' for more detailed usage information.
+/work/01/jh210022o/q25030/graph-vae-playground/.d0006972467: line 23: -B: command not found

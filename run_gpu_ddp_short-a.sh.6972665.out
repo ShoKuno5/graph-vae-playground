@@ -1,0 +1,31 @@
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:464] [c10d] The server socket cannot be initialized on [::]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+Epoch 00
+Traceback (most recent call last):
+  File "/workspace/src/train_graphvae_ddp.py", line 111, in <module>
+    torch.multiprocessing.spawn(main,
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 241, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 197, in start_processes
+    while not context.join():
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 158, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 4 terminated with the following error:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 68, in _wrap
+    fn(i, *args)
+  File "/workspace/src/train_graphvae_ddp.py", line 75, in main
+    A_perm = permute_adj(A_true, A_hat)
+  File "/workspace/src/train_graphvae_ddp.py", line 21, in permute_adj
+    r, c = linear_sum_assignment(cost.detach().cpu().numpy())
+ValueError: matrix contains invalid numeric entries
+

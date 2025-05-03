@@ -1,0 +1,823 @@
+INFO:    Converting SIF file to temporary sandbox...
+WARNING: underlay of /etc/localtime required more than 50 (75) bind mounts
+WARNING: underlay of /usr/bin/nvidia-smi required more than 50 (309) bind mounts
+[W socket.cpp:464] [c10d] The server socket cannot be initialized on [::]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+[W socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [::ffff:127.0.0.1]:29500 (errno: 97 - Address family not supported by protocol).
+wa05:298:298 [0] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:298:298 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:298:298 [0] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.19.3+cuda12.1
+wa05:307:307 [0] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:307:307 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:307:307 [0] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.19.3+cuda12.1
+wa05:338:338 [0] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:338:338 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:338:338 [0] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.19.3+cuda12.1
+wa05:297:297 [7] NCCL INFO cudaDriverVersion 12020
+wa05:297:297 [7] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:297:297 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:302:302 [3] NCCL INFO cudaDriverVersion 12020
+wa05:305:305 [6] NCCL INFO cudaDriverVersion 12020
+wa05:302:302 [3] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:302:302 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:305:305 [6] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:305:305 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:320:320 [4] NCCL INFO cudaDriverVersion 12020
+wa05:320:320 [4] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:320:320 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:312:312 [5] NCCL INFO cudaDriverVersion 12020
+wa05:312:312 [5] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:312:312 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:304:304 [5] NCCL INFO cudaDriverVersion 12020
+wa05:304:304 [5] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:304:304 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:292:292 [2] NCCL INFO cudaDriverVersion 12020
+wa05:292:292 [2] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:292:292 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:293:293 [3] NCCL INFO cudaDriverVersion 12020
+wa05:295:295 [5] NCCL INFO cudaDriverVersion 12020
+wa05:293:293 [3] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:293:293 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:295:295 [5] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:295:295 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:309:309 [2] NCCL INFO cudaDriverVersion 12020
+wa05:306:306 [7] NCCL INFO cudaDriverVersion 12020
+wa05:309:309 [2] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:309:309 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:306:306 [7] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:306:306 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:303:303 [4] NCCL INFO cudaDriverVersion 12020
+wa05:294:294 [4] NCCL INFO cudaDriverVersion 12020
+wa05:303:303 [4] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:303:303 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:294:294 [4] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:294:294 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:318:318 [2] NCCL INFO cudaDriverVersion 12020
+wa05:318:318 [2] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:318:318 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:298:984 [0] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:298:984 [0] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:298:984 [0] NCCL INFO Using non-device net plugin version 0
+wa05:298:984 [0] NCCL INFO Using network Socket
+wa05:307:983 [0] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:307:983 [0] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:307:983 [0] NCCL INFO Using non-device net plugin version 0
+wa05:307:983 [0] NCCL INFO Using network Socket
+wa05:297:986 [7] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:297:986 [7] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:297:986 [7] NCCL INFO Using non-device net plugin version 0
+wa05:297:986 [7] NCCL INFO Using network Socket
+wa05:320:987 [4] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:320:987 [4] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:320:987 [4] NCCL INFO Using non-device net plugin version 0
+wa05:320:987 [4] NCCL INFO Using network Socket
+wa05:338:985 [0] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:338:985 [0] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:338:985 [0] NCCL INFO Using non-device net plugin version 0
+wa05:338:985 [0] NCCL INFO Using network Socket
+wa05:293:991 [3] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:303:988 [4] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:293:991 [3] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:293:991 [3] NCCL INFO Using non-device net plugin version 0
+wa05:293:991 [3] NCCL INFO Using network Socket
+wa05:303:988 [4] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:303:988 [4] NCCL INFO Using non-device net plugin version 0
+wa05:303:988 [4] NCCL INFO Using network Socket
+wa05:306:992 [7] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:306:992 [7] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:306:992 [7] NCCL INFO Using non-device net plugin version 0
+wa05:306:992 [7] NCCL INFO Using network Socket
+wa05:302:989 [3] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:302:989 [3] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:302:989 [3] NCCL INFO Using non-device net plugin version 0
+wa05:302:989 [3] NCCL INFO Using network Socket
+wa05:322:322 [6] NCCL INFO cudaDriverVersion 12020
+wa05:322:322 [6] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:322:322 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:305:993 [6] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:305:993 [6] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:305:993 [6] NCCL INFO Using non-device net plugin version 0
+wa05:305:993 [6] NCCL INFO Using network Socket
+wa05:294:990 [4] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:294:990 [4] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:294:990 [4] NCCL INFO Using non-device net plugin version 0
+wa05:294:990 [4] NCCL INFO Using network Socket
+wa05:292:997 [2] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:292:997 [2] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:292:997 [2] NCCL INFO Using non-device net plugin version 0
+wa05:292:997 [2] NCCL INFO Using network Socket
+wa05:304:996 [5] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:304:996 [5] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:304:996 [5] NCCL INFO Using non-device net plugin version 0
+wa05:304:996 [5] NCCL INFO Using network Socket
+wa05:312:995 [5] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:312:995 [5] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:312:995 [5] NCCL INFO Using non-device net plugin version 0
+wa05:312:995 [5] NCCL INFO Using network Socket
+wa05:295:994 [5] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:295:994 [5] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:295:994 [5] NCCL INFO Using non-device net plugin version 0
+wa05:295:994 [5] NCCL INFO Using network Socket
+wa05:309:999 [2] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:309:999 [2] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:309:999 [2] NCCL INFO Using non-device net plugin version 0
+wa05:309:999 [2] NCCL INFO Using network Socket
+wa05:318:998 [2] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:318:998 [2] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:318:998 [2] NCCL INFO Using non-device net plugin version 0
+wa05:318:998 [2] NCCL INFO Using network Socket
+wa05:308:308 [1] NCCL INFO cudaDriverVersion 12020
+wa05:308:308 [1] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:308:308 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:291:291 [1] NCCL INFO cudaDriverVersion 12020
+wa05:291:291 [1] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:291:291 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:354:354 [6] NCCL INFO cudaDriverVersion 12020
+wa05:354:354 [6] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:354:354 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:296:296 [6] NCCL INFO cudaDriverVersion 12020
+wa05:296:296 [6] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:296:296 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:290:290 [0] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:290:290 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:290:290 [0] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.19.3+cuda12.1
+wa05:322:1002 [6] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:322:1002 [6] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:322:1002 [6] NCCL INFO Using non-device net plugin version 0
+wa05:322:1002 [6] NCCL INFO Using network Socket
+wa05:332:332 [4] NCCL INFO cudaDriverVersion 12020
+wa05:332:332 [4] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:332:332 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:337:337 [0] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:337:337 [0] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:337:337 [0] NCCL INFO cudaDriverVersion 12020
+NCCL version 2.19.3+cuda12.1
+wa05:319:319 [3] NCCL INFO cudaDriverVersion 12020
+wa05:319:319 [3] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:319:319 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:291:1004 [1] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:291:1004 [1] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:291:1004 [1] NCCL INFO Using non-device net plugin version 0
+wa05:291:1004 [1] NCCL INFO Using network Socket
+wa05:354:1006 [6] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:354:1006 [6] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:354:1006 [6] NCCL INFO Using non-device net plugin version 0
+wa05:354:1006 [6] NCCL INFO Using network Socket
+wa05:348:348 [4] NCCL INFO cudaDriverVersion 12020
+wa05:348:348 [4] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:348:348 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:352:352 [5] NCCL INFO cudaDriverVersion 12020
+wa05:352:352 [5] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:352:352 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:296:1005 [6] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:296:1005 [6] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:296:1005 [6] NCCL INFO Using non-device net plugin version 0
+wa05:296:1005 [6] NCCL INFO Using network Socket
+wa05:308:1008 [1] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:308:1008 [1] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:308:1008 [1] NCCL INFO Using non-device net plugin version 0
+wa05:308:1008 [1] NCCL INFO Using network Socket
+wa05:290:1009 [0] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:290:1009 [0] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:290:1009 [0] NCCL INFO Using non-device net plugin version 0
+wa05:290:1009 [0] NCCL INFO Using network Socket
+wa05:339:339 [1] NCCL INFO cudaDriverVersion 12020
+wa05:339:339 [1] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:339:339 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+
+wa05:338:980 [0] bootstrap.cc:135 NCCL WARN Bootstrap Root : rank 7 of 8 ranks has already checked in
+wa05:335:335 [7] NCCL INFO cudaDriverVersion 12020
+wa05:335:335 [7] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:335:335 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+
+wa05:303:988 [4] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:303:988 [4] NCCL INFO misc/socket.cc:565 -> 2
+wa05:303:988 [4] NCCL INFO misc/socket.cc:619 -> 2
+wa05:303:988 [4] NCCL INFO bootstrap.cc:274 -> 2
+wa05:303:988 [4] NCCL INFO init.cc:1388 -> 2
+wa05:303:988 [4] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:303:303 [4] NCCL INFO group.cc:418 -> 2
+wa05:303:303 [4] NCCL INFO group.cc:95 -> 2
+
+wa05:293:991 [3] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:293:991 [3] NCCL INFO misc/socket.cc:565 -> 2
+wa05:293:991 [3] NCCL INFO misc/socket.cc:619 -> 2
+wa05:293:991 [3] NCCL INFO bootstrap.cc:274 -> 2
+wa05:293:991 [3] NCCL INFO init.cc:1388 -> 2
+wa05:293:991 [3] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:293:293 [3] NCCL INFO group.cc:418 -> 2
+wa05:293:293 [3] NCCL INFO group.cc:95 -> 2
+
+wa05:302:989 [3] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:302:989 [3] NCCL INFO misc/socket.cc:565 -> 2
+wa05:302:989 [3] NCCL INFO misc/socket.cc:619 -> 2
+wa05:302:989 [3] NCCL INFO bootstrap.cc:274 -> 2
+wa05:302:989 [3] NCCL INFO init.cc:1388 -> 2
+wa05:302:989 [3] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:302:302 [3] NCCL INFO group.cc:418 -> 2
+wa05:302:302 [3] NCCL INFO group.cc:95 -> 2
+
+wa05:305:993 [6] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:305:993 [6] NCCL INFO misc/socket.cc:565 -> 2
+wa05:305:993 [6] NCCL INFO misc/socket.cc:619 -> 2
+wa05:305:993 [6] NCCL INFO bootstrap.cc:274 -> 2
+wa05:305:993 [6] NCCL INFO init.cc:1388 -> 2
+wa05:305:993 [6] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:305:305 [6] NCCL INFO group.cc:418 -> 2
+wa05:305:305 [6] NCCL INFO group.cc:95 -> 2
+
+wa05:312:995 [5] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:312:995 [5] NCCL INFO misc/socket.cc:565 -> 2
+wa05:312:995 [5] NCCL INFO misc/socket.cc:619 -> 2
+wa05:312:995 [5] NCCL INFO bootstrap.cc:274 -> 2
+wa05:312:995 [5] NCCL INFO init.cc:1388 -> 2
+wa05:312:995 [5] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:312:312 [5] NCCL INFO group.cc:418 -> 2
+wa05:312:312 [5] NCCL INFO group.cc:95 -> 2
+wa05:299:299 [1] NCCL INFO cudaDriverVersion 12020
+wa05:299:299 [1] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:299:299 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+
+wa05:294:990 [4] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:294:990 [4] NCCL INFO misc/socket.cc:565 -> 2
+wa05:294:990 [4] NCCL INFO misc/socket.cc:619 -> 2
+wa05:294:990 [4] NCCL INFO bootstrap.cc:274 -> 2
+wa05:294:990 [4] NCCL INFO init.cc:1388 -> 2
+wa05:294:990 [4] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:294:294 [4] NCCL INFO group.cc:418 -> 2
+wa05:294:294 [4] NCCL INFO group.cc:95 -> 2
+wa05:343:343 [2] NCCL INFO cudaDriverVersion 12020
+
+wa05:304:996 [5] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:304:996 [5] NCCL INFO misc/socket.cc:565 -> 2
+wa05:304:996 [5] NCCL INFO misc/socket.cc:619 -> 2
+
+wa05:292:997 [2] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:304:996 [5] NCCL INFO bootstrap.cc:274 -> 2
+wa05:292:997 [2] NCCL INFO misc/socket.cc:565 -> 2
+wa05:304:996 [5] NCCL INFO init.cc:1388 -> 2
+wa05:292:997 [2] NCCL INFO misc/socket.cc:619 -> 2
+wa05:304:996 [5] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:292:997 [2] NCCL INFO bootstrap.cc:274 -> 2
+wa05:292:997 [2] NCCL INFO init.cc:1388 -> 2
+wa05:292:997 [2] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:343:343 [2] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:292:292 [2] NCCL INFO group.cc:418 -> 2
+wa05:304:304 [5] NCCL INFO group.cc:418 -> 2
+wa05:292:292 [2] NCCL INFO group.cc:95 -> 2
+wa05:304:304 [5] NCCL INFO group.cc:95 -> 2
+wa05:343:343 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+
+wa05:295:994 [5] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:295:994 [5] NCCL INFO misc/socket.cc:565 -> 2
+wa05:295:994 [5] NCCL INFO misc/socket.cc:619 -> 2
+wa05:295:994 [5] NCCL INFO bootstrap.cc:274 -> 2
+wa05:295:994 [5] NCCL INFO init.cc:1388 -> 2
+wa05:295:994 [5] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:295:295 [5] NCCL INFO group.cc:418 -> 2
+wa05:295:295 [5] NCCL INFO group.cc:95 -> 2
+wa05:332:1017 [4] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:332:1017 [4] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:332:1017 [4] NCCL INFO Using non-device net plugin version 0
+wa05:332:1017 [4] NCCL INFO Using network Socket
+wa05:337:1021 [0] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:337:1021 [0] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:337:1021 [0] NCCL INFO Using non-device net plugin version 0
+wa05:337:1021 [0] NCCL INFO Using network Socket
+
+wa05:309:999 [2] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:309:999 [2] NCCL INFO misc/socket.cc:565 -> 2
+wa05:309:999 [2] NCCL INFO misc/socket.cc:619 -> 2
+wa05:309:999 [2] NCCL INFO bootstrap.cc:274 -> 2
+wa05:309:999 [2] NCCL INFO init.cc:1388 -> 2
+wa05:309:999 [2] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:309:309 [2] NCCL INFO group.cc:418 -> 2
+wa05:309:309 [2] NCCL INFO group.cc:95 -> 2
+
+wa05:318:998 [2] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:318:998 [2] NCCL INFO misc/socket.cc:565 -> 2
+wa05:318:998 [2] NCCL INFO misc/socket.cc:619 -> 2
+wa05:318:998 [2] NCCL INFO bootstrap.cc:274 -> 2
+wa05:318:998 [2] NCCL INFO init.cc:1388 -> 2
+wa05:318:998 [2] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:318:318 [2] NCCL INFO group.cc:418 -> 2
+wa05:318:318 [2] NCCL INFO group.cc:95 -> 2
+wa05:345:345 [3] NCCL INFO cudaDriverVersion 12020
+wa05:345:345 [3] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:345:345 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:319:1019 [3] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:319:1019 [3] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:319:1019 [3] NCCL INFO Using non-device net plugin version 0
+wa05:319:1019 [3] NCCL INFO Using network Socket
+wa05:329:329 [1] NCCL INFO cudaDriverVersion 12020
+wa05:329:329 [1] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:329:329 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:348:1018 [4] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:348:1018 [4] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:348:1018 [4] NCCL INFO Using non-device net plugin version 0
+wa05:348:1018 [4] NCCL INFO Using network Socket
+wa05:352:1022 [5] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:352:1022 [5] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:352:1022 [5] NCCL INFO Using non-device net plugin version 0
+wa05:352:1022 [5] NCCL INFO Using network Socket
+wa05:342:342 [2] NCCL INFO cudaDriverVersion 12020
+wa05:342:342 [2] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:342:342 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:333:333 [5] NCCL INFO cudaDriverVersion 12020
+wa05:333:333 [5] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:333:333 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:356:356 [6] NCCL INFO cudaDriverVersion 12020
+wa05:356:356 [6] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:356:356 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:339:1023 [1] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:339:1023 [1] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:339:1023 [1] NCCL INFO Using non-device net plugin version 0
+wa05:339:1023 [1] NCCL INFO Using network Socket
+wa05:344:344 [2] NCCL INFO cudaDriverVersion 12020
+wa05:344:344 [2] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:344:344 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:335:1024 [7] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:335:1024 [7] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:335:1024 [7] NCCL INFO Using non-device net plugin version 0
+wa05:335:1024 [7] NCCL INFO Using network Socket
+wa05:310:310 [3] NCCL INFO cudaDriverVersion 12020
+wa05:310:310 [3] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:310:310 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:300:300 [2] NCCL INFO cudaDriverVersion 12020
+wa05:300:300 [2] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:300:300 [2] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:311:311 [4] NCCL INFO cudaDriverVersion 12020
+wa05:311:311 [4] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:311:311 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+
+wa05:322:1002 [6] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:322:1002 [6] NCCL INFO misc/socket.cc:565 -> 2
+wa05:322:1002 [6] NCCL INFO misc/socket.cc:619 -> 2
+wa05:322:1002 [6] NCCL INFO bootstrap.cc:274 -> 2
+wa05:322:1002 [6] NCCL INFO init.cc:1388 -> 2
+wa05:322:1002 [6] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:322:322 [6] NCCL INFO group.cc:418 -> 2
+wa05:322:322 [6] NCCL INFO group.cc:95 -> 2
+wa05:334:334 [6] NCCL INFO cudaDriverVersion 12020
+wa05:334:334 [6] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:334:334 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:299:1025 [1] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:299:1025 [1] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:299:1025 [1] NCCL INFO Using non-device net plugin version 0
+wa05:299:1025 [1] NCCL INFO Using network Socket
+wa05:343:1027 [2] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:343:1027 [2] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:343:1027 [2] NCCL INFO Using non-device net plugin version 0
+wa05:343:1027 [2] NCCL INFO Using network Socket
+wa05:358:358 [7] NCCL INFO cudaDriverVersion 12020
+wa05:358:358 [7] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:358:358 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:321:321 [5] NCCL INFO cudaDriverVersion 12020
+wa05:321:321 [5] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:321:321 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:345:1028 [3] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:345:1028 [3] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:345:1028 [3] NCCL INFO Using non-device net plugin version 0
+wa05:345:1028 [3] NCCL INFO Using network Socket
+wa05:329:1030 [1] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:329:1030 [1] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:329:1030 [1] NCCL INFO Using non-device net plugin version 0
+wa05:329:1030 [1] NCCL INFO Using network Socket
+wa05:342:1037 [2] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:342:1037 [2] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:342:1037 [2] NCCL INFO Using non-device net plugin version 0
+wa05:342:1037 [2] NCCL INFO Using network Socket
+wa05:356:1041 [6] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:356:1041 [6] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:356:1041 [6] NCCL INFO Using non-device net plugin version 0
+wa05:356:1041 [6] NCCL INFO Using network Socket
+
+wa05:291:1004 [1] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:291:1004 [1] NCCL INFO misc/socket.cc:565 -> 2
+wa05:291:1004 [1] NCCL INFO misc/socket.cc:619 -> 2
+wa05:291:1004 [1] NCCL INFO bootstrap.cc:274 -> 2
+wa05:291:1004 [1] NCCL INFO init.cc:1388 -> 2
+wa05:291:1004 [1] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:291:291 [1] NCCL INFO group.cc:418 -> 2
+wa05:291:291 [1] NCCL INFO group.cc:95 -> 2
+wa05:333:1039 [5] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:333:1039 [5] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:333:1039 [5] NCCL INFO Using non-device net plugin version 0
+wa05:333:1039 [5] NCCL INFO Using network Socket
+
+wa05:354:1006 [6] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:354:1006 [6] NCCL INFO misc/socket.cc:565 -> 2
+wa05:354:1006 [6] NCCL INFO misc/socket.cc:619 -> 2
+wa05:354:1006 [6] NCCL INFO bootstrap.cc:274 -> 2
+wa05:354:1006 [6] NCCL INFO init.cc:1388 -> 2
+wa05:354:1006 [6] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:354:354 [6] NCCL INFO group.cc:418 -> 2
+wa05:354:354 [6] NCCL INFO group.cc:95 -> 2
+
+wa05:296:1005 [6] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+wa05:296:1005 [6] NCCL INFO misc/socket.cc:565 -> 2
+wa05:296:1005 [6] NCCL INFO misc/socket.cc:619 -> 2
+wa05:296:1005 [6] NCCL INFO bootstrap.cc:274 -> 2
+wa05:296:1005 [6] NCCL INFO init.cc:1388 -> 2
+wa05:296:1005 [6] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:296:296 [6] NCCL INFO group.cc:418 -> 2
+wa05:296:296 [6] NCCL INFO group.cc:95 -> 2
+wa05:300:1042 [2] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:310:1044 [3] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:300:1042 [2] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:344:1043 [2] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:310:1044 [3] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:300:1042 [2] NCCL INFO Using non-device net plugin version 0
+wa05:344:1043 [2] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:310:1044 [3] NCCL INFO Using non-device net plugin version 0
+wa05:300:1042 [2] NCCL INFO Using network Socket
+wa05:344:1043 [2] NCCL INFO Using non-device net plugin version 0
+wa05:310:1044 [3] NCCL INFO Using network Socket
+wa05:344:1043 [2] NCCL INFO Using network Socket
+wa05:347:347 [3] NCCL INFO cudaDriverVersion 12020
+wa05:347:347 [3] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:347:347 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:311:1045 [4] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:311:1045 [4] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:311:1045 [4] NCCL INFO Using non-device net plugin version 0
+wa05:311:1045 [4] NCCL INFO Using network Socket
+wa05:334:1046 [6] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:334:1046 [6] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:334:1046 [6] NCCL INFO Using non-device net plugin version 0
+wa05:334:1046 [6] NCCL INFO Using network Socket
+wa05:341:341 [1] NCCL INFO cudaDriverVersion 12020
+wa05:341:341 [1] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:341:341 [1] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:321:1047 [5] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:321:1047 [5] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:321:1047 [5] NCCL INFO Using non-device net plugin version 0
+wa05:321:1047 [5] NCCL INFO Using network Socket
+wa05:358:1048 [7] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:358:1048 [7] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:358:1048 [7] NCCL INFO Using non-device net plugin version 0
+wa05:358:1048 [7] NCCL INFO Using network Socket
+
+wa05:332:1017 [4] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<60647> failed : Software caused connection abort
+wa05:332:1017 [4] NCCL INFO misc/socket.cc:565 -> 2
+wa05:332:1017 [4] NCCL INFO misc/socket.cc:619 -> 2
+wa05:332:1017 [4] NCCL INFO bootstrap.cc:274 -> 2
+wa05:332:1017 [4] NCCL INFO init.cc:1388 -> 2
+wa05:332:1017 [4] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:332:332 [4] NCCL INFO group.cc:418 -> 2
+wa05:332:332 [4] NCCL INFO group.cc:95 -> 2
+wa05:347:1049 [3] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:347:1049 [3] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:347:1049 [3] NCCL INFO Using non-device net plugin version 0
+wa05:347:1049 [3] NCCL INFO Using network Socket
+wa05:349:349 [4] NCCL INFO cudaDriverVersion 12020
+wa05:349:349 [4] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:349:349 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:341:1050 [1] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:341:1050 [1] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:341:1050 [1] NCCL INFO Using non-device net plugin version 0
+wa05:341:1050 [1] NCCL INFO Using network Socket
+wa05:331:331 [3] NCCL INFO cudaDriverVersion 12020
+wa05:331:331 [3] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:331:331 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+Traceback (most recent call last):
+  File "/workspace/src/train_graphvae_ddp.py", line 111, in <module>
+    torch.multiprocessing.spawn(main,
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 241, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 197, in start_processes
+    while not context.join():
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 158, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 4 terminated with the following error:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 68, in _wrap
+    fn(i, *args)
+  File "/workspace/src/train_graphvae_ddp.py", line 58, in main
+    model = DDP(model, device_ids=[rank])
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 798, in __init__
+    _verify_param_shape_across_processes(self.process_group, parameters)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/utils.py", line 263, in _verify_param_shape_across_processes
+    return dist._verify_params_across_processes(process_group, tensors, logger)
+torch.distributed.DistBackendError: NCCL error in: /opt/conda/conda-bld/pytorch_1711403380909/work/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1691, unhandled system error (run with NCCL_DEBUG=INFO for details), NCCL version 2.19.3
+ncclSystemError: System call (e.g. socket, malloc) or external library call failed or device error. 
+Last error:
+socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+
+wa05:357:357 [7] NCCL INFO cudaDriverVersion 12020
+wa05:357:357 [7] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:357:357 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:350:350 [4] NCCL INFO cudaDriverVersion 12020
+wa05:350:350 [4] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:350:350 [4] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:313:313 [6] NCCL INFO cudaDriverVersion 12020
+wa05:313:313 [6] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:313:313 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:323:323 [7] NCCL INFO cudaDriverVersion 12020
+wa05:323:323 [7] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:323:323 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:349:1051 [4] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:349:1051 [4] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:349:1051 [4] NCCL INFO Using non-device net plugin version 0
+wa05:349:1051 [4] NCCL INFO Using network Socket
+wa05:356:1041 [6] NCCL INFO comm 0x826a600 rank 6 nranks 8 cudaDev 6 nvmlDev 6 busId c7000 commId 0x423e54e5b95f69aa - Init START
+wa05:345:1028 [3] NCCL INFO comm 0x8955840 rank 3 nranks 8 cudaDev 3 nvmlDev 3 busId 57000 commId 0x423e54e5b95f69aa - Init START
+wa05:337:1021 [0] NCCL INFO comm 0x80e0f00 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 27000 commId 0x423e54e5b95f69aa - Init START
+wa05:343:1027 [2] NCCL INFO comm 0x9d0c4b0 rank 2 nranks 8 cudaDev 2 nvmlDev 2 busId 51000 commId 0x423e54e5b95f69aa - Init START
+wa05:335:1024 [7] NCCL INFO comm 0x9523180 rank 7 nranks 8 cudaDev 7 nvmlDev 7 busId ca000 commId 0x423e54e5b95f69aa - Init START
+wa05:348:1018 [4] NCCL INFO comm 0x969ea60 rank 4 nranks 8 cudaDev 4 nvmlDev 4 busId 9e000 commId 0x423e54e5b95f69aa - Init START
+wa05:339:1023 [1] NCCL INFO comm 0x8774380 rank 1 nranks 8 cudaDev 1 nvmlDev 1 busId 2a000 commId 0x423e54e5b95f69aa - Init START
+wa05:352:1022 [5] NCCL INFO comm 0x9541310 rank 5 nranks 8 cudaDev 5 nvmlDev 5 busId a4000 commId 0x423e54e5b95f69aa - Init START
+wa05:314:314 [7] NCCL INFO cudaDriverVersion 12020
+wa05:314:314 [7] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:314:314 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+Traceback (most recent call last):
+  File "/workspace/src/train_graphvae_ddp.py", line 111, in <module>
+    torch.multiprocessing.spawn(main,
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 241, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 197, in start_processes
+    while not context.join():
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 158, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 4 terminated with the following error:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 68, in _wrap
+    fn(i, *args)
+  File "/workspace/src/train_graphvae_ddp.py", line 58, in main
+    model = DDP(model, device_ids=[rank])
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 798, in __init__
+    _verify_param_shape_across_processes(self.process_group, parameters)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/utils.py", line 263, in _verify_param_shape_across_processes
+    return dist._verify_params_across_processes(process_group, tensors, logger)
+torch.distributed.DistBackendError: NCCL error in: /opt/conda/conda-bld/pytorch_1711403380909/work/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1691, unhandled system error (run with NCCL_DEBUG=INFO for details), NCCL version 2.19.3
+ncclSystemError: System call (e.g. socket, malloc) or external library call failed or device error. 
+Last error:
+socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+
+
+wa05:333:1039 [5] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<49173> failed : Software caused connection abort
+wa05:333:1039 [5] NCCL INFO misc/socket.cc:565 -> 2
+wa05:333:1039 [5] NCCL INFO misc/socket.cc:619 -> 2
+wa05:333:1039 [5] NCCL INFO bootstrap.cc:274 -> 2
+wa05:333:1039 [5] NCCL INFO init.cc:1388 -> 2
+wa05:333:1039 [5] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:333:333 [5] NCCL INFO group.cc:418 -> 2
+wa05:333:333 [5] NCCL INFO group.cc:95 -> 2
+Traceback (most recent call last):
+  File "/workspace/src/train_graphvae_ddp.py", line 111, in <module>
+    torch.multiprocessing.spawn(main,
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 241, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 197, in start_processes
+    while not context.join():
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 158, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 2 terminated with the following error:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 68, in _wrap
+    fn(i, *args)
+  File "/workspace/src/train_graphvae_ddp.py", line 58, in main
+    model = DDP(model, device_ids=[rank])
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 798, in __init__
+    _verify_param_shape_across_processes(self.process_group, parameters)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/utils.py", line 263, in _verify_param_shape_across_processes
+    return dist._verify_params_across_processes(process_group, tensors, logger)
+torch.distributed.DistBackendError: NCCL error in: /opt/conda/conda-bld/pytorch_1711403380909/work/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1691, unhandled system error (run with NCCL_DEBUG=INFO for details), NCCL version 2.19.3
+ncclSystemError: System call (e.g. socket, malloc) or external library call failed or device error. 
+Last error:
+socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+
+wa05:331:1052 [3] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:331:1052 [3] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:331:1052 [3] NCCL INFO Using non-device net plugin version 0
+wa05:331:1052 [3] NCCL INFO Using network Socket
+
+wa05:344:1043 [2] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<49173> failed : Software caused connection abort
+wa05:344:1043 [2] NCCL INFO misc/socket.cc:565 -> 2
+wa05:344:1043 [2] NCCL INFO misc/socket.cc:619 -> 2
+wa05:344:1043 [2] NCCL INFO bootstrap.cc:274 -> 2
+wa05:344:1043 [2] NCCL INFO init.cc:1388 -> 2
+wa05:344:1043 [2] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:344:344 [2] NCCL INFO group.cc:418 -> 2
+wa05:344:344 [2] NCCL INFO group.cc:95 -> 2
+wa05:357:1053 [7] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:357:1053 [7] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:357:1053 [7] NCCL INFO Using non-device net plugin version 0
+wa05:357:1053 [7] NCCL INFO Using network Socket
+
+wa05:334:1046 [6] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<49173> failed : Software caused connection abort
+wa05:334:1046 [6] NCCL INFO misc/socket.cc:565 -> 2
+wa05:334:1046 [6] NCCL INFO misc/socket.cc:619 -> 2
+wa05:334:1046 [6] NCCL INFO bootstrap.cc:274 -> 2
+wa05:334:1046 [6] NCCL INFO init.cc:1388 -> 2
+wa05:334:1046 [6] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:334:334 [6] NCCL INFO group.cc:418 -> 2
+wa05:334:334 [6] NCCL INFO group.cc:95 -> 2
+wa05:350:1054 [4] NCCL INFO Failed to open libibverbs.so[.1]
+wa05:350:1054 [4] NCCL INFO NET/Socket : Using [0]ib0:10.0.6.5<0> [1]ib1:10.0.6.69<0> [2]ib2:10.0.6.133<0> [3]ib3:10.0.6.197<0>
+wa05:350:1054 [4] NCCL INFO Using non-device net plugin version 0
+wa05:350:1054 [4] NCCL INFO Using network Socket
+
+wa05:358:1048 [7] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<49173> failed : Software caused connection abort
+wa05:358:1048 [7] NCCL INFO misc/socket.cc:565 -> 2
+wa05:358:1048 [7] NCCL INFO misc/socket.cc:619 -> 2
+wa05:358:1048 [7] NCCL INFO bootstrap.cc:274 -> 2
+wa05:358:1048 [7] NCCL INFO init.cc:1388 -> 2
+wa05:358:1048 [7] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:358:358 [7] NCCL INFO group.cc:418 -> 2
+wa05:358:358 [7] NCCL INFO group.cc:95 -> 2
+Traceback (most recent call last):
+  File "/workspace/src/train_graphvae_ddp.py", line 111, in <module>
+    torch.multiprocessing.spawn(main,
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 241, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method="spawn")
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 197, in start_processes
+    while not context.join():
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 158, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 5 terminated with the following error:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 68, in _wrap
+    fn(i, *args)
+  File "/workspace/src/train_graphvae_ddp.py", line 58, in main
+    model = DDP(model, device_ids=[rank])
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/distributed.py", line 798, in __init__
+    _verify_param_shape_across_processes(self.process_group, parameters)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/utils.py", line 263, in _verify_param_shape_across_processes
+    return dist._verify_params_across_processes(process_group, tensors, logger)
+torch.distributed.DistBackendError: NCCL error in: /opt/conda/conda-bld/pytorch_1711403380909/work/torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1691, unhandled system error (run with NCCL_DEBUG=INFO for details), NCCL version 2.19.3
+ncclSystemError: System call (e.g. socket, malloc) or external library call failed or device error. 
+Last error:
+socketStartConnect: Connect to 10.0.6.5<34805> failed : Software caused connection abort
+
+wa05:351:351 [5] NCCL INFO cudaDriverVersion 12020
+wa05:351:351 [5] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:351:351 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:346:346 [3] NCCL INFO cudaDriverVersion 12020
+wa05:346:346 [3] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:346:346 [3] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+
+wa05:347:1049 [3] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<49173> failed : Software caused connection abort
+wa05:347:1049 [3] NCCL INFO misc/socket.cc:565 -> 2
+wa05:347:1049 [3] NCCL INFO misc/socket.cc:619 -> 2
+wa05:347:1049 [3] NCCL INFO bootstrap.cc:274 -> 2
+wa05:347:1049 [3] NCCL INFO init.cc:1388 -> 2
+wa05:347:1049 [3] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:347:347 [3] NCCL INFO group.cc:418 -> 2
+wa05:347:347 [3] NCCL INFO group.cc:95 -> 2
+wa05:353:353 [5] NCCL INFO cudaDriverVersion 12020
+wa05:359:359 [7] NCCL INFO cudaDriverVersion 12020
+wa05:353:353 [5] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:359:359 [7] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:353:353 [5] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:359:359 [7] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+wa05:355:355 [6] NCCL INFO cudaDriverVersion 12020
+wa05:355:355 [6] NCCL INFO Bootstrap : Using ib0:10.0.6.5<0>
+wa05:355:355 [6] NCCL INFO NET/Plugin : dlerror=libnccl-net.so: cannot open shared object file: No such file or directory No plugin found (libnccl-net.so), using internal implementation
+
+wa05:341:1050 [1] misc/socket.cc:484 NCCL WARN socketStartConnect: Connect to 10.0.6.5<49173> failed : Software caused connection abort
+wa05:341:1050 [1] NCCL INFO misc/socket.cc:565 -> 2
+wa05:341:1050 [1] NCCL INFO misc/socket.cc:619 -> 2
+wa05:341:1050 [1] NCCL INFO bootstrap.cc:274 -> 2
+wa05:341:1050 [1] NCCL INFO init.cc:1388 -> 2
+wa05:341:1050 [1] NCCL INFO group.cc:64 -> 2 [Async thread]
+wa05:341:341 [1] NCCL INFO group.cc:418 -> 2
+wa05:341:341 [1] NCCL INFO group.cc:95 -> 2
+[2025-05-03 15:57:51,105] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 217 closing signal SIGTERM
+[2025-05-03 15:57:51,105] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 220 closing signal SIGTERM
+[2025-05-03 15:57:51,106] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 221 closing signal SIGTERM
+[2025-05-03 15:57:51,106] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 222 closing signal SIGTERM
+/opt/conda/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 16 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/opt/conda/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 16 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/opt/conda/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 16 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+/opt/conda/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 16 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+[2025-05-03 15:57:51,371] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 216) of binary: /opt/conda/bin/python
+Traceback (most recent call last):
+  File "/opt/conda/bin/torchrun", line 33, in <module>
+    sys.exit(load_entry_point('torch==2.2.2', 'console_scripts', 'torchrun')())
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 347, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/run.py", line 812, in main
+    run(args)
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/opt/conda/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+src/train_graphvae_ddp.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2025-05-03_15:57:51
+  host      : wa05
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 218)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2025-05-03_15:57:51
+  host      : wa05
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 219)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2025-05-03_15:57:51
+  host      : wa05
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 223)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-05-03_15:57:51
+  host      : wa05
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 216)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+INFO:    Cleaning up image...

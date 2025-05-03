@@ -1,0 +1,17 @@
+INFO:    Converting SIF file to temporary sandbox...
+WARNING: underlay of /etc/localtime required more than 50 (75) bind mounts
+WARNING: underlay of /usr/bin/nvidia-smi required more than 50 (309) bind mounts
+Device = cuda
+Traceback (most recent call last):
+  File "/workspace/src/train_graphvae.py", line 118, in <module>
+    train(pa.parse_args())
+  File "/workspace/src/train_graphvae.py", line 80, in train
+    bce   = F.binary_cross_entropy(A_hat, A_perm, reduction="none")
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 3127, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+RuntimeError: torch.nn.functional.binary_cross_entropy and torch.nn.BCELoss are unsafe to autocast.
+Many models use a sigmoid layer right before the binary cross entropy layer.
+In this case, combine the two layers using torch.nn.functional.binary_cross_entropy_with_logits
+or torch.nn.BCEWithLogitsLoss.  binary_cross_entropy_with_logits and BCEWithLogits are
+safe to autocast.
+INFO:    Cleaning up image...
